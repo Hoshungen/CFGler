@@ -1,8 +1,14 @@
-mem_compact
+//Dizin/csgo/cfg/AutoExec.cfg
+//Alias
+alias noblood "r_cleardecals";noblood
 
+//Initial Launch
+//Steam: -novid -high -tickrate 128 -refresh 144
+mem_compact;noblood
 
+//General
 mat_queue_mode 2
-mat_monitorgamma 1.795182 //parlaklık: 110-120
+mat_monitorgamma 1.795182//parlaklık: 110-120
 fps_max 0//400
 cl_righthand 1
 cl_showhelp 0
@@ -10,7 +16,7 @@ cl_autohelp 0
 cl_autowepswitch 0
 hud_showtargetid 1
 cl_hud_playercount_pos 0
-cl_hud_playercount_showcount 1//0=pfps 1=sayı
+cl_hud_playercount_showcount 1//0=pfps 1=player count
 cl_hud_color 4//favorilerim 0-2-3-4
 cl_hud_healthammo_style 1
 cl_hud_background_alpha .6
@@ -33,8 +39,6 @@ cl_updaterate 128
 mm_dedicated_search_maxping 70
 
 //Null-Movement
-alias noblood "r_cleardecals"
-
 bind w "+mfwd;noblood"
 bind s "+mback;noblood"
 bind a "+mleft;noblood"
@@ -94,15 +98,13 @@ cl_bobamt_vert 0//.25
 cl_bobcycle 2//.98
 
 //Mouse
+sensitivity 2
 m_rawinput 1
 m_mouseaccel1 0
 m_mouseaccel2 0
-//sensitivity 2
-
 
 //Sound
-//CRACKING
-
+//cracking sorunu dikkat!
 //beware of nahimic's wrath and effects
 //volume .3
 snd_musicvolume_multiplier_inoverlay .1
@@ -114,19 +116,5 @@ snd_roundend_volume .1
 snd_roundstart_volume .08
 snd_tensecondwarning_volume .15
 snd_mute_losefocus 0
-
-//Advanced Sound variables
-
-//voice_scale 1//.62
-//snd_surround_speakers 0//0 for headphones
-//snd_surround_speakers -1
-//snd_front_headphone_position 45//90
-//snd_rear_headphone_position 135//90
-//snd_headphone_pan_exponent 2//1.2
-//snd_headphone_pan_radial_weight 1//.5
-//dsp_slow_cpu 0
-//dsp_enhance_stereo 0
-//snd_mixahead 1
-//snd_pitchquality 1
 
 //host_writeconfig
