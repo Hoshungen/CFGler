@@ -38,28 +38,6 @@ cl_updaterate 128
 //cl_interp_ratio 2
 mm_dedicated_search_maxping 70
 
-//Null-Movement
-bind w "+mfwd;noblood"
-bind s "+mback;noblood"
-bind a "+mleft;noblood"
-bind d "+mright;noblood"
- 
-alias +mfwd "-back;+forward;alias checkfwd +forward;"
-alias +mback "-forward;+back;alias checkback +back;"
-alias +mleft "-moveright;+moveleft;alias checkleft +moveleft;"
-alias +mright "-moveleft;+moveright;alias checkright +moveright;"
-alias -mfwd "-forward;checkback;alias checkfwd none;"
-alias -mback "-back;checkfwd;alias checkback none;"
-alias -mleft "-moveleft;checkright;alias checkleft none;"
-alias -mright "-moveright;checkleft;alias checkright none;"
-alias checkfwd none
-alias checkback none
-alias checkleft none
-alias checkright none
-alias none ""
-bind "SPACE" "+jump;noblood"
-bind "ctrl" "+duck;noblood"
-
 //Crosshair
 cl_crosshair_drawoutline "1"
 cl_crosshair_dynamic_maxdist_splitratio "0.300000"
@@ -116,5 +94,28 @@ snd_roundend_volume .1
 snd_roundstart_volume .08
 snd_tensecondwarning_volume .15
 snd_mute_losefocus 0
+
+//Null-Movement
+alias +mfwd "-back;+forward;alias checkfwd +forward;"
+alias +mback "-forward;+back;alias checkback +back;"
+alias +mleft "-moveright;+moveleft;alias checkleft +moveleft;"
+alias +mright "-moveleft;+moveright;alias checkright +moveright;"
+alias -mfwd "-forward;checkback;alias checkfwd none;"
+alias -mback "-back;checkfwd;alias checkback none;"
+alias -mleft "-moveleft;checkright;alias checkleft none;"
+alias -mright "-moveright;checkleft;alias checkright none;"
+alias checkfwd none
+alias checkback none
+alias checkleft none
+alias checkright none
+alias none ""
+
+//Bindings
+bind w "+mfwd;noblood"
+bind s "+mback;noblood"
+bind a "+mleft;noblood"
+bind d "+mright;noblood"
+bind "SPACE" "+jump;noblood"
+bind "ctrl" "+duck;noblood"
 
 //host_writeconfig
