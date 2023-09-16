@@ -1,4 +1,4 @@
-TF2: -high -fullscreen -w 1920 -h 1080 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime
+TF2: -high -fullscreen -w 1280 -h 720 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime
 _Test Needed!: -game tf -steam -secure -softparticlesdefaultoff -reuse -primarysound -snoforceformat -nostartupsound
 _1920x1080 @Fullscreen
 _Mods: MastercomfigLowPreset, P-REC, NoRocketTrail, SniperScopeRemoval, NoExplosionsScript
