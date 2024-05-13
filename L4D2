@@ -1,0 +1,9 @@
+//sens 2
+
+//Crosshair
+cl_crosshair_dynamic 0
+cl_crosshair_alpha 75//255
+cl_crosshair_thickness 1
+
+//General
+cl_colorblind 2
