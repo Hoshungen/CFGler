@@ -1,3 +1,31 @@
+//Hoshungen CFG - 2.08..2024
+
+//Betas: = Chromium + 64-bit Binaries
+//Launch Options: -nojoy -nosteamcontroller -softparticlesdefaultoff -nohltv -particles 1 -useforcedmparms -noforcemaccel -noforcemspd
+
+fps_max 160
+
+sensitivity 2 //1.5
+
+default_fov 90//100
+viewmodel_fov 55
+
+//Experimental Multi-threading Settings:
+gmod_mcore_test 1
+mat_queue_mode 2//-1
+cl_threaded_bone_setup 1//0
+r_threaded_particles 1//0
+r_queued_ropes 1
+studio_queue_mode 1
+
+//Tuşlar
+
+// q = oluşturma listesi
+// c = 
+// v = noclip
+
+//2 Yıl Önceki Kodlar
+
 //playermodel_selector
 //+tfa_vox_callout_radial
 // F6
