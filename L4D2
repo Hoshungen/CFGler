@@ -1,13 +1,15 @@
-//sens 2
+//Sens:
+sensitivity 3//2
+m_rawinput 0//1
+m_filter 0
 
-//Crosshair
+//Crosshair:
 cl_crosshair_dynamic 0
 cl_crosshair_alpha 75//255
 cl_crosshair_thickness 1
 
-//General
-cl_colorblind 2
-
-
-//mat_queue_mode 2
+//General:
+mat_queue_mode -2
 mat_motion_blur_percent_of_screen_max 0
+
+cl_colorblind 2
