@@ -18,3 +18,5 @@ L4D2: ```-high -fullscreen -w 1920 -h 1080 -refresh 144 -novid -nojoy -nosteamco
 GMOD:
 * Beta'dan: "Chromium + 64-bit Binaries" seçilecek
 * ```-nojoy -nosteamcontroller -softparticlesdefaultoff -nohltv -particles 1 -useforcedmparms -noforcemaccel -noforcemspd```
+
+NOT: SourceMod oyunlarını Raw Input olmadan daha rahat oynadığımı keşfettim. sens 3
