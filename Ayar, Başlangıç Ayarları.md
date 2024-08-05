@@ -11,4 +11,6 @@ CS2: ```-high -fullscreen -w 1920 -h 1080 -refresh 144 -novid -tickrate 128```
 
 L4D2: ```-high -fullscreen -w 1920 -h 1080 -refresh 144 -novid -nojoy -nosteamcontroller -forcenovsync -useforcedmparms -noforcemparms -noforcemspd```
 
-GMOD: ```-nojoy -nosteamcontroller -softparticlesdefaultoff -nohltv -particles 1 -useforcedmparms -noforcemaccel -noforcemspd```
+GMOD:
+* Beta'dan: "Chromium + 64-bit Binaries" seçilecek
+* ```-nojoy -nosteamcontroller -softparticlesdefaultoff -nohltv -particles 1 -useforcedmparms -noforcemaccel -noforcemspd```
