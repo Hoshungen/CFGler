@@ -1,6 +1,5 @@
 //Hoshungen's Counter Strike GO/2 CFG (5/8//24)
 //?? Dizin/csgo/cfg/AutoExec.cfg
-//Launch: -novid -high -tickrate 128 -refresh 144
 
 //Aliases:
 alias noblood "r_cleardecals"; noblood
