@@ -2,6 +2,7 @@
 Hitman 2 Silent Assassin, Hitman Contracts:
 * Radeon Chill: 60 - 150
 * Enchanced Sync ON
+* "A complete widescreen fix for Hitman Contracts" modunu kullanıyorum
 
 ## Başlangıç Ayarları
 TF2: ```((-dxlevel 100)) -high -fullscreen -w 1920 -h 1080 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime```
