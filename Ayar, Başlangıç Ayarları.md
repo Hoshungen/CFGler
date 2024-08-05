@@ -19,4 +19,4 @@ GMOD:
 * Beta'dan: "Chromium + 64-bit Binaries" seçilecek
 * ```-nojoy -nosteamcontroller -softparticlesdefaultoff -nohltv -particles 1 -useforcedmparms -noforcemaccel -noforcemspd```
 
-NOT: SourceMod oyunlarını Raw Input olmadan daha rahat oynadığımı keşfettim. sens 3
+NOT: Source oyunlarını Raw Input olmadan daha rahat oynadığımı keşfettim. sens 3
