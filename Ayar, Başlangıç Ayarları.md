@@ -1,5 +1,7 @@
 ## Ayarlar
-Hitman 1 Codename 47 ve Hitman 2 Silent Assassin: ```FPS'i 150'ye sabitle```
+Hitman 2 Silent Assassin, Hitman Contracts:
+* Radeon Chill: 60 - 150
+* Enchanced Sync ON
 
 ## Başlangıç Ayarları
 TF2: ```((-dxlevel 100)) -high -fullscreen -w 1920 -h 1080 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime```
