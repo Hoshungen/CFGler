@@ -7,3 +7,7 @@ cl_crosshair_thickness 1
 
 //General
 cl_colorblind 2
+
+
+//mat_queue_mode 2
+mat_motion_blur_percent_of_screen_max 0
