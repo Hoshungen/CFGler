@@ -1,9 +1,7 @@
 ## Ayarlar
-Hitman 2 Silent Assassin, Hitman Contracts:
-* Radeon Chill: 60 - 150
-* Enchanced Sync ON
-* A complete widescreen fix for Hitman 2 Silent Assassin, Contracts
-* Hitman Unlocker
+Hitman Codename 47, Hitman 2 Silent Assassin, Hitman Contracts:
+* Frame rate target control ON - 150
+* A complete widescreen fix for Hitman Codename 47, 2 Silent Assassin, Contracts
 
 ## Başlangıç Ayarları
 TF2: ```((-dxlevel 100)) -high -fullscreen -w 1920 -h 1080 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime```
