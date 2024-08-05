@@ -1,14 +1,4 @@
-TF2: -high -fullscreen -w 1280 -h 720 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime
-_Test Needed!: -game tf -steam -secure -softparticlesdefaultoff -reuse -primarysound -snoforceformat -nostartupsound
-_1920x1080 @Fullscreen
-_Mods: MastercomfigLowPreset, P-REC, NoRocketTrail, SniperScopeRemoval, NoExplosionsScript
-_Steam Cloud deaktif
-_Steam Overlay aktif
+TF2: Autoexec dosyasında bulunuyor
 
-
-
-
-
-** (-dxlevel 95, -autoconfig) -fullscreen -w 1920 -h 1080 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime
 CSGO: -novid -high -tickrate 128 -refresh 144
 Call of Duty 2003: +set r_mode -1 +set r_customwidth 1920 +set r_customheight 1080 +set cg_fov 96
