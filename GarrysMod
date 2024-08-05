@@ -1,12 +1,14 @@
 //Hoshungen CFG - 2.08..2024
-
 //Betas: = Chromium + 64-bit Binaries
-//Launch Options: -nojoy -nosteamcontroller -softparticlesdefaultoff -nohltv -particles 1 -useforcedmparms -noforcemaccel -noforcemspd
 
 fps_max 160
 
-sensitivity 2 //1.5
+//Sens:
+sensitivity 3//2, 1.5
+m_rawinput 0//1
+m_filter 0
 
+//General:
 default_fov 90//100
 viewmodel_fov 55
 
