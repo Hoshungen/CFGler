@@ -6,6 +6,7 @@ TF2: ```((-dxlevel 100)) -high -fullscreen -w 1920 -h 1080 -novid -nojoy -nostea
 
 Call of Duty 2003: ```+set r_mode -1 +set r_customwidth 1920 +set r_customheight 1080 +set cg_fov 96```
 
-CS2: ```-novid -high -tickrate 128 -refresh 144```
+CS2: ```-high -fullscreen -w 1920 -h 1080 -refresh 144 -novid -tickrate 128```
+??-Fullscreen??
 
 L4D2: ```-high -fullscreen -w 1920 -h 1080 -refresh 144 -novid -nojoy -nosteamcontroller -forcenovsync -useforcedmparms -noforcemparms -noforcemspd```
