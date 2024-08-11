@@ -1,13 +1,34 @@
-default_fov 110
+// HL OP4
 
 sensitivity 2
 m_rawinput 1
+m_customaccel 0
+m_customaccel_exponent 0
+m_customaccel_max 0
+m_customaccel_scale 0
+m_filter 0
 
+default_fov 106
 gamma 1.9
 
 fps_max 150
 fps_override 1
 
 gl_round_down 0
-//gl_texturemode GL_NEAREST_MIPMAP_LINEAR // === pixelated
+//gl_texturemode GL_NEAREST_MIPMAP_LINEAR
 gl_texturemode GL_LINEAR_MIPMAP_LINEAR
+gl_ansio 16
+gl_overbright 1
+gl_use_shaders 1
+
+gl_spriteblend 0
+
+cl_bobcycle 1
+cl_bob 0.01
+cl_bobup 0
+
+sv_rollspeed 0
+sv_rollangle 0
+
+r_detailtextures 1
+r_wadtextures 1
