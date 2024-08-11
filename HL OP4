@@ -1,0 +1,14 @@
+default_fov 110
+
+sensitivity 2
+m_rawinput 1
+
+gamma 2
+
+fps_max 150
+fps_override 1
+
+gl_round_down 0
+gl_texturemode GL_LINEAR_MIPMAP_LINEAR
+//^ alıştığım
+//gl_texturemode GL_NEAREST_MIPMAP_LINEAR // === pixelated
