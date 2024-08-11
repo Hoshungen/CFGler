@@ -32,3 +32,6 @@ sv_rollangle 0
 
 r_detailtextures 1
 r_wadtextures 1
+
+sp_decals 4096
+mp_decals 300
