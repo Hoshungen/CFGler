@@ -1,4 +1,10 @@
+// This file is overwritten whenever you change your user settings in the game.
+// Add custom configurations to the file "userconfig.cfg".
+
+//  gearbox/userconfig.cfg
+
 // HL OP4
+//	exec userconfig.cfg
 
 sensitivity 2
 m_rawinput 1
