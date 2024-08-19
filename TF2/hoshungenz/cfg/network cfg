@@ -1,0 +1,18 @@
+//TF2 Network CFG
+//Network
+cl_updaterate 66
+cl_cmdrate 66
+rate 60000//196608 veya 1048576
+cl_interp 0//.0304
+cl_interp_ratio 2//1
+cl_smooth 0//1
+cl_smoothtime 0.01//cl_smoothtime 0.1 veya .05
+cl_pred_optimize 2
+cl_lagcompensation 1
+
+//OTHER NETWORK SETTINGS
+//cl_setupallbones 1
+//net_compresspackets 0
+//net_maxcleartime 0.01
+//net_splitpacket_maxrate 1048576
+//net_splitrate 3
