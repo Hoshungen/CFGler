@@ -1,6 +1,8 @@
 ## Ayarlar
-Hitman Codename 47, Hitman 2 Silent Assassin, Hitman Contracts:
+Genel Ayarlar
 * Frame rate target control ON - 150
+
+Hitman Codename 47, Hitman 2 Silent Assassin, Hitman Contracts:
 * A complete widescreen fix for Hitman Codename 47, 2 Silent Assassin, Contracts
 
 ## Başlangıç Ayarları
