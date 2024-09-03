@@ -15,7 +15,6 @@ Call of Duty 2003: ```+set r_mode -1 +set r_customwidth 1920 +set r_customheight
 CS 1.6: ```-freq 144```
 
 CS2: ```-high -fullscreen -w 1920 -h 1080 -refresh 144 -novid -tickrate 128```
-??-fullscreen??
 
 L4D2: ```-high -fullscreen -w 1920 -h 1080 -refresh 144 -novid -nojoy -nosteamcontroller -forcenovsync -useforcedmparms -noforcemparms -noforcemspd```
 
