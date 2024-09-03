@@ -1,25 +1,12 @@
-//Hoshungen's Counter Strike GO/2 config (5/8//24)
+//Hoshungen's Counter Strike 2 config (3/9//24)
 //?? Dizin/csgo/cfg/AutoExec.cfg
 
-mem_compact
+// RIP Null Movement Script
+
+mem_compact;r_cleardecals
 
 //Aliases:
 alias noblood "r_cleardecals"
-
-//Null-Movement:
-alias +mfwd "-back;+forward;alias checkfwd +forward;"
-alias +mback "-forward;+back;alias checkback +back;"
-alias +mleft "-moveright;+moveleft;alias checkleft +moveleft;"
-alias +mright "-moveleft;+moveright;alias checkright +moveright;"
-alias -mfwd "-forward;checkback;alias checkfwd none;"
-alias -mback "-back;checkfwd;alias checkback none;"
-alias -mleft "-moveleft;checkright;alias checkleft none;"
-alias -mright "-moveright;checkleft;alias checkright none;"
-alias checkfwd none
-alias checkback none
-alias checkleft none
-alias checkright none
-alias none ""
 
 //General
 mat_queue_mode 2
@@ -112,13 +99,27 @@ snd_roundstart_volume .08
 snd_tensecondwarning_volume .15
 snd_mute_losefocus 0
 
+//Movement Thingy
+alias +ileri "+forward"
+alias -ileri "-forward"
+
+alias +geri "+back"
+alias -geri "-back"
+
+alias +sol "+moveleft"
+alias -sol "-moveleft"
+
+alias +sag "+moveright"
+alias -sag "-moveright"
+
+
 //Bindings:
 //unbindall
 
-bind w "+mfwd;noblood"
-bind s "+mback;noblood"
-bind a "+mleft;noblood"
-bind d "+mright;noblood"
+bind w "+ileri;noblood"
+bind s "+geri;noblood"
+bind a "+sol;noblood"
+bind d "+sag;noblood"
 
 bind SPACE "+jump;noblood"
 bind CTRL "+duck;noblood"
