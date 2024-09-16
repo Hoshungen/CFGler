@@ -4,7 +4,7 @@
 //exec userconfig.cfg
 //  gearbox/userconfig.cfg (OP4)
 //  bshift/
-//  ricochet/
+//	ricochet/
 
 sensitivity 2
 //zoom_sensitivity_ratio 1.2
@@ -15,15 +15,17 @@ m_customaccel_max 0
 m_customaccel_scale 0
 m_filter 0
 joystick 0
+gl_lowlatency 1
 
 default_fov 95
 gamma 1.9
 
 fps_override 1
-fps_max 150//60 if you want ropes
+fps_max 150
+//^ 60 if you want ropes
 
 gl_vsync 0
-gl_widescreen_yfov 1
+
 
 gl_round_down 0
 //gl_texturemode GL_NEAREST_MIPMAP_LINEAR
@@ -32,6 +34,11 @@ gl_ansio 16
 gl_overbright 1
 gl_use_shaders 1
 
+r_detailtextures 1
+r_wadtextures 1
+sp_decals 4096
+mp_decals 300
+
 gl_spriteblend 0
 
 //Headbob
@@ -39,19 +46,20 @@ cl_bobcycle 1
 cl_bob 0
 cl_bobup 0
 
-//Headbob def
+sv_rollspeed 0
+sv_rollangle 0
+//^def 2.0 strafe tilt
+
+//Headbob DEF
 //cl_bobcycle 0.8
 //cl_bob 0.01
 //cl_bobup 0.5
 
-sv_rollspeed 0
-sv_rollangle 0
 
-r_detailtextures 1
-r_wadtextures 1
-
-sp_decals 4096
-mp_decals 300
+//m_mousethread_sleep 1
+r_prefertexturefiltering 1
+gl_widescreen_yfov 1
+//cl_vsmoothing 1
 
 //Aliases:
 
