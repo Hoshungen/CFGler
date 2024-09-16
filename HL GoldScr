@@ -1,6 +1,5 @@
 //Hoshungen's HL Goldsource CFG (16/9//24)
-
-//	-noforcemaccel -noforcemparms -noforcemspd
+//		-noforcemaccel -noforcemparms -noforcemspd
 
 //  gearbox/userconfig.cfg (OP4)
 //  bshift/userconfig.cfg
@@ -13,7 +12,7 @@ m_customaccel_max 0
 m_customaccel_scale 0
 m_filter 0
 
-default_fov 106
+default_fov 100
 gamma 1.9
 
 fps_override 1
