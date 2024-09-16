@@ -1,6 +1,8 @@
 //Hoshungen's Counter Strike 2 config (3/9//24)
 //?? Dizin/csgo/cfg/AutoExec.cfg
 
+//    -high -fullscreen -w 1920 -h 1080 -refresh 144 -novid -tickrate 128
+
 // RIP Null Movement Script
 
 mem_compact;r_cleardecals
