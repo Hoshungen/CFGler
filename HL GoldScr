@@ -1,22 +1,28 @@
 //Hoshungen's HL Goldsource CFG (16/9//24)
 //		-noforcemaccel -noforcemparms -noforcemspd
 
+//exec userconfig.cfg
 //  gearbox/userconfig.cfg (OP4)
 //  bshift/userconfig.cfg
 
 sensitivity 2
+//zoom_sensitivity_ratio 1.2
 m_rawinput 1
 m_customaccel 0
 m_customaccel_exponent 0
 m_customaccel_max 0
 m_customaccel_scale 0
 m_filter 0
+joystick 0
 
-default_fov 100
+default_fov 95
 gamma 1.9
 
 fps_override 1
 fps_max 150//60 if you want ropes
+
+gl_vsync 0
+gl_widescreen_yfov 1
 
 gl_round_down 0
 //gl_texturemode GL_NEAREST_MIPMAP_LINEAR
@@ -39,3 +45,61 @@ r_wadtextures 1
 
 sp_decals 4096
 mp_decals 300
+
+//Aliases:
+
+//Null-Movement:
+alias +mfwd "-back;+forward;alias checkfwd +forward;"
+alias +mback "-forward;+back;alias checkback +back;"
+alias +mleft "-moveright;+moveleft;alias checkleft +moveleft;"
+alias +mright "-moveleft;+moveright;alias checkright +moveright;"
+alias -mfwd "-forward;checkback;alias checkfwd none;"
+alias -mback "-back;checkfwd;alias checkback none;"
+alias -mleft "-moveleft;checkright;alias checkleft none;"
+alias -mright "-moveright;checkleft;alias checkright none;"
+alias checkfwd none
+alias checkback none
+alias checkleft none
+alias checkright none
+alias none ""
+
+//Bindings:
+bind MOUSE1 "+attack"
+bind MOUSE2 ""
+bind MOUSE3 ""
+bind MOUSE4 ""//alt
+bind MOUSE5 "+attack2"//ust
+
+bind TAB "+showscores"
+
+bind 0 "slot10"
+bind 1 "slot1"
+bind 2 "slot2"
+bind 3 "slot3"
+bind 4 "slot4"
+bind 5 "slot5"
+bind 6 "slot6"
+bind 7 "slot7"
+
+//Movement
+bind w "+mfwd"
+bind a "+mleft"
+bind s "+mback"
+bind d "+mright"
+
+bind SPACE "+jump"
+
+bind SHIFT "+speed"
+bind CTRL "+duck"
+
+//1
+bind q "lastinv"
+bind e "+use"
+bind r "+reload"
+bind t "impulse 201"
+
+
+//2
+bind f "impulse 100"
+
+//3
