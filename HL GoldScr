@@ -33,9 +33,15 @@ gl_use_shaders 1
 
 gl_spriteblend 0
 
+//Headbob
 cl_bobcycle 1
-cl_bob 0.01
+cl_bob 0
 cl_bobup 0
+
+//Headbob def
+//cl_bobcycle 0.8
+//cl_bob 0.01
+//cl_bobup 0.5
 
 sv_rollspeed 0
 sv_rollangle 0
