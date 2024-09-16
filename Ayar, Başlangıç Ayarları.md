@@ -10,8 +10,6 @@ TF2:
 * ```((-dxlevel 100)) -high -window -noborder -w 1920 -h 1080 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime```
 * sens 2, raw input off
 
-CS 1.6: ```-freq 144```
-
 CS2: ```-high -fullscreen -w 1920 -h 1080 -refresh 144 -novid -tickrate 128```
 
 GMOD:
