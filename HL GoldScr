@@ -16,7 +16,7 @@ default_fov 100
 gamma 1.9
 
 fps_override 1
-fps_max 150
+fps_max 150//60 if you want ropes
 
 gl_round_down 0
 //gl_texturemode GL_NEAREST_MIPMAP_LINEAR
