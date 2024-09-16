@@ -2,9 +2,10 @@
 //		-noforcemaccel -noforcemparms -noforcemspd
 
 //exec userconfig.cfg
-//  gearbox/userconfig.cfg (OP4)
-//  bshift/
-//	ricochet/
+//  /gearbox/userconfig.cfg (OP4)
+//  /bshift
+//	/ricochet
+//	/tfc
 
 sensitivity 2
 //zoom_sensitivity_ratio 1.2
