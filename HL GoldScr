@@ -1,10 +1,9 @@
-// This file is overwritten whenever you change your user settings in the game.
-// Add custom configurations to the file "userconfig.cfg".
+//Hoshungen's HL Goldsource CFG (16/9//24)
 
-//  gearbox/userconfig.cfg
+//	-noforcemaccel -noforcemparms -noforcemspd
 
-// HL OP4
-//	exec userconfig.cfg
+//  gearbox/userconfig.cfg (OP4)
+//  bshift/userconfig.cfg
 
 sensitivity 2
 m_rawinput 1
@@ -17,8 +16,8 @@ m_filter 0
 default_fov 106
 gamma 1.9
 
-fps_max 150
 fps_override 1
+fps_max 150
 
 gl_round_down 0
 //gl_texturemode GL_NEAREST_MIPMAP_LINEAR
