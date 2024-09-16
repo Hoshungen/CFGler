@@ -3,7 +3,8 @@
 
 //exec userconfig.cfg
 //  gearbox/userconfig.cfg (OP4)
-//  bshift/userconfig.cfg
+//  bshift/
+//  ricochet/
 
 sensitivity 2
 //zoom_sensitivity_ratio 1.2
