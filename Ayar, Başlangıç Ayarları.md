@@ -10,13 +10,9 @@ TF2:
 * ```((-dxlevel 100)) -high -window -noborder -w 1920 -h 1080 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime```
 * sens 2, raw input off
 
-Call of Duty 2003: ```+set r_mode -1 +set r_customwidth 1920 +set r_customheight 1080 +set cg_fov 96```
-
 CS 1.6: ```-freq 144```
 
 CS2: ```-high -fullscreen -w 1920 -h 1080 -refresh 144 -novid -tickrate 128```
-
-L4D2: ```-high -fullscreen -w 1920 -h 1080 -refresh 144 -novid -nojoy -nosteamcontroller -forcenovsync -useforcedmparms -noforcemparms -noforcemspd```
 
 GMOD:
 * Beta'dan: "Chromium + 64-bit Binaries" seçilecek
