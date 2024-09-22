@@ -9,8 +9,4 @@ Hitman Codename 47, Hitman 2 Silent Assassin, Hitman Contracts:
 TF2:
 * sens 2, raw input off
 
-GMOD:
-* Beta'dan: "Chromium + 64-bit Binaries" seçilecek
-* ```-nojoy -nosteamcontroller -softparticlesdefaultoff -nohltv -particles 1 -useforcedmparms -noforcemaccel -noforcemspd```
-
-NOT: Source oyunlarını Raw Input olmadan daha rahat oynadığımı keşfettim. sens 3
+NOT: Source oyunlarını Raw Input olmadan daha rahat oynadığımı keşfettim. sens 3, raw input 0, fov 75, çözünürlük? 11??x?
