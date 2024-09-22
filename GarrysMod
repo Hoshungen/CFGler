@@ -1,4 +1,7 @@
 //Hoshungen's GMOD CFG - 5/08//2024
+//Launch:
+//        -nojoy -nosteamcontroller -softparticlesdefaultoff -nohltv -particles 1 -useforcedmparms -noforcemaccel -noforcemspd
+//        Beta'lar Kısmından "Chromium + 64-bit Binaries" seçilecek
 
 fps_max 160
 
