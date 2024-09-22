@@ -7,7 +7,6 @@ Hitman Codename 47, Hitman 2 Silent Assassin, Hitman Contracts:
 
 ## Başlangıç Ayarları
 TF2:
-* ```((-dxlevel 100)) -high -window -noborder -w 1920 -h 1080 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime```
 * sens 2, raw input off
 
 GMOD:
