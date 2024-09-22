@@ -1,0 +1,1 @@
+gfx_d3d_mp_x86_s = Call of Duty 2 Multiplayer - High Definition LOD Distance Fix
