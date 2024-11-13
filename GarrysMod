@@ -3,7 +3,7 @@
 //        -nojoy -nosteamcontroller -softparticlesdefaultoff -nohltv -particles 1 -useforcedmparms -noforcemaccel -noforcemspd
 //        Beta'lar Kısmından "Chromium + 64-bit Binaries" seçilecek
 
-fps_max 160
+fps_max 150
 
 //Sens:
 sensitivity 3//2, 1.5
