@@ -93,6 +93,8 @@ bind 4 "slot4"
 bind 5 "slot5"
 bind 6 "slot6"
 bind 7 "slot7"
+bind 8 "slot8"
+bind 9 "slot9"
 
 ////Movement
 bind w "+mfwd"
