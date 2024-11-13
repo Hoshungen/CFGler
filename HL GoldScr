@@ -105,14 +105,30 @@ bind SPACE "+jump"
 bind SHIFT "+speed"
 bind CTRL "+duck"
 
-////1
+////Sıra 1:
 bind q "lastinv"
 bind e "+use"
 bind r "+reload"
 bind t "impulse 201"
+bind y ""
+bind u ""
 
+bind o ""
+bind p ""
 
-////2
+////Sıra 2:
 bind f "impulse 100"
+bind g ""
+bind h ""
+bind j ""
+bind k ""
+bind l ""
 
-////3
+////Sıra 3:
+bind z ""
+bind x ""
+bind c ""
+bind v ""
+bind b ""
+bind n ""
+bind m ""
