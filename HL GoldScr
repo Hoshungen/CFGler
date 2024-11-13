@@ -101,6 +101,7 @@ bind s "+mback"
 bind d "+mright"
 
 bind SPACE "+jump"
+//bind ALT ""
 
 bind SHIFT "+speed"
 bind CTRL "+duck"
