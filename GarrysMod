@@ -1,24 +1,24 @@
-//Hoshungen's GMOD CFG - 5/08//2024
+//Hosh GMOD CFG (5/08//2024) > garrysmod/cfg:
 //Launch:
 //        -nojoy -nosteamcontroller -softparticlesdefaultoff -nohltv -particles 1 -useforcedmparms -noforcemaccel -noforcemspd
 //        Beta'lar Kısmından "Chromium + 64-bit Binaries" seçilecek
 
-fps_max 150
+fps_max 200
 
-//Sens:
-sensitivity 3//2, 1.5
-m_rawinput 0//1
+//Look:
+sensitivity 3 //2, 1.5
+m_rawinput 0 //1
 m_filter 0
 
 //General:
-default_fov 90//100
+default_fov 90 //100
 viewmodel_fov 55
 
 //Experimental Multi-threading Settings:
 gmod_mcore_test 1
-mat_queue_mode 2//-1
-cl_threaded_bone_setup 1//0
-r_threaded_particles 1//0
+mat_queue_mode 2 //-1
+cl_threaded_bone_setup 1 //0
+r_threaded_particles 1 //0
 r_queued_ropes 1
 studio_queue_mode 1
 
