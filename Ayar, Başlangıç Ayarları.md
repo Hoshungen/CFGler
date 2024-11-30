@@ -1,7 +1,7 @@
 # Ayarlar
 
 ### A Hat in Time:
-* Config/HatinTimeInput.ini -> bEnableMouseSmoothing -> FALSE
+* Config/HatinTimeInput.ini → bEnableMouseSmoothing → FALSE
 * Sens: 15
 
 ### Hitman Codename 47, Hitman 2 Silent Assassin, Hitman Contracts:
