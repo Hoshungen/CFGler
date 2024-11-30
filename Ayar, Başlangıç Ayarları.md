@@ -1,6 +1,4 @@
 # Ayarlar
-### Genel Ayarlar
-* Frame rate target control ON - 150
 
 ### A Hat in Time:
 * Config/HatinTimeInput.ini -> bEnableMouseSmoothing -> FALSE
@@ -8,6 +6,7 @@
 
 ### Hitman Codename 47, Hitman 2 Silent Assassin, Hitman Contracts:
 * A complete widescreen fix for Hitman Codename 47, 2 Silent Assassin, Contracts
+* Hitman C47'de FPS sabitlemek gerekiyor
 
 ### TF2:
 * sens 2, raw input off/on
