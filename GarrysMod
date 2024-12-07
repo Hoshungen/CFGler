@@ -47,6 +47,8 @@ threadpool_affinity 6
 mem_max_heapsize 2048
 
 //Binds:
+//cancelselect
+
 bind MOUSE1 +attack
 bind MOUSE2 +attack2
 bind MOUSE3 ""
@@ -140,7 +142,7 @@ bind c ""
 bind v +menu_context //Diğer Menü
 bind b +zoom
 bind n noclip
-bind m "cancelselect"
+bind m ""
 bind / "" //Ö Tuşu
 bind \ "" //Ç Tuşu
 bind . ""
