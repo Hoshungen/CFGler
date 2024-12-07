@@ -1,35 +1,158 @@
-//Hosh GMOD CFG (5/08//2024) > garrysmod/cfg:
+//Hosh GMOD CFG (7/12//2024) > garrysmod/cfg:
 //Launch:
-//        -nojoy -nosteamcontroller -softparticlesdefaultoff -nohltv -particles 1 -useforcedmparms -noforcemaccel -noforcemspd
-//        Beta'lar Kısmından "Chromium + 64-bit Binaries" seçilecek
+//			-windowed -noborder -nojoy -nosteamcontroller -softparticlesdefaultoff -nohltv -particles 1 -useforcedmparms -noforcemaccel -noforcemspd
+//			Beta'lar Kısmından "Chromium + 64-bit Binaries" seçilecek
 
-fps_max 200
+alias t "clear"; t
+alias y "exec autoexec"
 
-//Look:
-sensitivity 3 //2, 1.5
-m_rawinput 0 //1
-m_filter 0
+alias Dev0 "developer 0"
+alias Dev1 "developer 1"
+Dev0
 
 //General:
-default_fov 90 //100
-viewmodel_fov 55
+r_3dsky 1
+fps_max 200
+//mat_dxlevel 110
+viewmodel_fov 70
+fov_desired 100
 
-//Experimental Multi-threading Settings:
+//Look:
+//cl_playermodel Shelly
+
+alias RI0 "m_rawinput 0; sensitivity 3.0"
+alias RI1 "m_rawinput 1; sensitivity 2.6"
+//RI0
+
+m_filter 0
+m_forward 0
+m_mousespeed 0
+m_customaccel 0
+m_mouseaccel1 0
+m_mouseaccel2 0
+m_customaccel_max 0
+m_customaccel_scale 0
+m_customaccel_exponent 0
+
+//Multi-thread Settings:
 gmod_mcore_test 1
-mat_queue_mode 2 //-1
-cl_threaded_bone_setup 1 //0
-r_threaded_particles 1 //0
-r_queued_ropes 1
+mat_queue_mode 2
+cl_threaded_bone_setup 1
 studio_queue_mode 1
+r_queued_ropes 1
+r_threaded_client_shadow_manager 1
+r_threaded_particles 1
+r_threaded_renderables 1
+threadpool_affinity 6
+mem_max_heapsize 2048
 
-//Tuşlar
+//Binds:
+bind MOUSE1 +attack
+bind MOUSE2 +attack2
+bind MOUSE3 ""
 
-// q = oluşturma listesi
-// c = 
-// v = noclip
+bind MOUSE4 lastinv  //Alt Tuş
+bind MOUSE5 +attack2 //Üst Tuş
 
-//2 Yıl Önceki Komutlar
+bind MWHEELUP   ""
+bind MWHEELDOWN ""
 
-//playermodel_selector
-//+tfa_vox_callout_radial
-// F6
+//:
+//Life Mod bozabiliyor v
+bind ` "" //Varsy Konsol tuşu
+bind 1 slot1
+bind 2 slot2
+bind 3 slot3
+bind 4 slot4
+bind 5 slot5
+bind 6 slot6
+bind 7 slot7
+bind 8 slot8
+bind 9 slot9
+bind 0 slot0 //Holster, Unequip
+bind - "" //Tire tuşu
+//bind BACKSPACE ""
+
+//Function Keys:
+//bind ESCAPE ""
+bind F1 gm_showhelp //Oluşturma listesi + Web Browser Toggle
+bind F2 gm_showteam
+bind F3 gm_showspare1
+bind F4 gm_showspare2
+
+bind F5 playermodel_selector
+bind F6 "save quick"
+bind F7 "load quick"
+bind F8 ""
+
+bind F9  ""
+bind F10 toggleconsole
+bind F11 y
+bind F12 ""
+
+bind ENTER ""
+bind PAUSE pause
+
+bind UPARROW    ""
+bind LEFTARROW  ""
+bind DOWNARROW  ""
+bind RIGHTARROW ""
+
+//bind DEL ""
+//bind END ""
+
+//Movement:
+bind w +forward
+bind a +moveleft
+bind s +back
+bind d +moveright
+
+//1:
+bind TAB +showscores //+score
+bind q +menu //Oluşturma Listesi Hold
+bind e +use
+bind r +reload
+bind t "impulse 201" //Sprey
+bind y messagemode
+bind u messagemode2
+bind I ""
+bind o ""
+bind p ""
+bind [ "" //Ğ Tuşu
+bind ] "" //Ü Tuşu
+bind , "" //Virgül Tuşu
+
+//2:
+bind f "impulse 100"
+bind g "+drop"
+bind h ""
+bind j +tfa_vox_callout_radial //VOX Paneli
+bind k ""
+bind l ""
+bind SEMICOLON ""   //Ş Tuşu
+bind ' +voicerecord // İ Tuşu
+
+//3:
+bind SHIFT +speed
+bind z gmod_undo
+bind x ""
+bind c ""
+bind v +menu_context //Diğer Menü
+bind b +zoom
+bind n noclip
+bind m "cancelselect"
+bind / "" //Ö Tuşu
+bind \ "" //Ç Tuşu
+bind . ""
+
+//4:
+bind CTRL +duck
+bind ALT "" //+walk
+bind SPACE +jump
+
+//Mod Settings:
+
+//Simple Film Grain Effect:
+pp_filmgrain 1
+//pp_filmgrain_alpha
+//pp_filmgrain_addalpha
