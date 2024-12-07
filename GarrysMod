@@ -1,13 +1,13 @@
 //Hosh GMOD CFG (7/12//2024) > garrysmod/cfg/autoexec:
-//Launch:
-//			-windowed -noborder -nojoy -nosteamcontroller -softparticlesdefaultoff -nohltv -particles 1 -useforcedmparms -noforcemaccel -noforcemspd
+//Launch:	-windowed -noborder -nojoy -nosteamcontroller -softparticlesdefaultoff -nohltv -particles 1 -useforcedmparms -noforcemaccel -noforcemspd
 //			Beta'lar Kısmından "Chromium + 64-bit Binaries" seçilecek
 
+//Alias:
 alias t "clear"; t
 alias y "exec autoexec"
 
-alias Dev0 "developer 0;unbind F10"
-alias Dev1 "developer 1"
+alias Dev0 "developer 0; unbind F10; unbind `; unbind ~"
+alias Dev1 "developer 1; bind F10 toggleconsole"
 
 //General:
 r_3dsky 1
@@ -87,7 +87,7 @@ bind F7 "load quick"
 bind F8 ""
 
 bind F9  ""
-bind F10 toggleconsole
+bind F10 ""
 bind F11 y
 bind F12 ""
 
