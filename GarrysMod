@@ -6,9 +6,8 @@
 alias t "clear"; t
 alias y "exec autoexec"
 
-alias Dev0 "developer 0"
+alias Dev0 "developer 0;unbind F10"
 alias Dev1 "developer 1"
-Dev0
 
 //General:
 r_3dsky 1
@@ -158,3 +157,5 @@ bind SPACE +jump
 pp_filmgrain 1
 //pp_filmgrain_alpha
 //pp_filmgrain_addalpha
+
+Dev0
